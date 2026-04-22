@@ -1,26 +1,28 @@
-# Controles Salida Flutter 📱
+# Controles Salida Flutter
 
-Este proyecto es una práctica de diseño de interfaces en Flutter, enfocada en la creación de una pantalla de perfil profesional utilizando el catálogo de widgets nativos de Material Design.
+Repositorio dedicado al desarrollo de una interfaz de usuario profesional mediante la composición de widgets nativos de Flutter. El proyecto se centra en la implementación de layouts complejos y la gestión de recursos locales.
 
-## 🚀 Lo que incluye este proyecto:
-* **Estructura de Layout**: Uso de `SingleChildScrollView` y `Column` para un diseño scrollable sin errores de desbordamiento.
-* **Identidad Visual**: Implementación de `CircleAvatar` con imágenes cargadas desde el sistema de archivos (Assets).
-* **Tipografía**: Estilización de textos para jerarquía de información (Nombre, Título, Secciones).
-* **Componentes Adaptativos**: Uso de `Wrap` y `Chip` para mostrar habilidades técnicas de forma fluida.
-* **Listas de Datos**: Implementación de `ListView` con `shrinkWrap` para integrar listas de experiencia dentro de columnas.
-* **Indicadores de Estado**: Uso de `LinearProgressIndicator` para visualización de competencias lingüísticas.
-
-## 🛠️ Estructura del Proyecto
-El código está organizado de manera modular:
-* `lib/main.dart`: Punto de entrada y configuración del tema.
-* `lib/widget/profile_screen.dart`: Lógica y diseño de la pantalla principal.
-* `assets/`: Carpeta dedicada a recursos multimedia.
-
-## 📸 Previsualización
+## Vista Previa de la Aplicación
 <p align="center">
-  <img src="assets/app.png" width="300" alt="Captura de la aplicación">
+  <img src="assets/app.png" width="300" alt="Vista previa de la interfaz">
 </p>
 
-## 👤 Autor
-**Alejandro Guarin** Founder & Project Leader en **Dev Logic**.  
-Estudiante de Ingeniería Informática.
+## Especificaciones Técnicas
+El desarrollo integra los siguientes componentes del SDK de Flutter:
+
+* **Arquitectura de Interfaz**: Implementación de `SingleChildScrollView` para garantizar la adaptabilidad en dispositivos de diversas resoluciones.
+* **Gestión de Multimedia**: Configuración de `AssetImage` para el renderizado de recursos locales definidos en el archivo de especificaciones `pubspec.yaml`.
+* **Componentes de Identidad**: Uso de `CircleAvatar` y personalización de estilos tipográficos mediante la clase `TextStyle`.
+* **Layouts Flexibles**: Implementación de `Wrap` y `Chip` para la distribución dinámica de etiquetas de habilidades.
+* **Estructuras de Datos**: Uso de `ListView` con `shrinkWrap: true` para la integración de listas anidadas dentro de contenedores verticales.
+* **Indicadores de Desempeño**: Visualización de métricas mediante el control `LinearProgressIndicator`.
+
+## Estructura del Proyecto
+* `lib/main.dart`: Configuración global y punto de entrada.
+* `lib/widget/profile_screen.dart`: Definición del widget de pantalla y lógica de UI.
+* `assets/`: Directorio de recursos estáticos del sistema.
+
+## Autor
+**Alejandro Guarin**
+Líder de Proyecto en Dev Logic
+Estudiante de Ingeniería Informatica
