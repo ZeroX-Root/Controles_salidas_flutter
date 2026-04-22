@@ -16,6 +16,11 @@ El código está organizado de manera modular:
 * `lib/widget/profile_screen.dart`: Lógica y diseño de la pantalla principal.
 * `assets/`: Carpeta dedicada a recursos multimedia.
 
+## 📸 Previsualización
+<p align="center">
+  <img src="assets/app.png" width="300" alt="Captura de la aplicación">
+</p>
+
 ## 👤 Autor
 **Alejandro Guarin** Founder & Project Leader en **Dev Logic**.  
 Estudiante de Ingeniería Informática.
