@@ -66,14 +66,12 @@ class ProfileScreen extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             const LinearProgressIndicator(
-              value: 0.75, // Representa el 75%
+              value: 0.40,
               minHeight: 10,
               backgroundColor: Colors.grey,
               color: Colors.blue,
             ),
             const SizedBox(height: 25),
-
-            // 6. Lista de Experiencias (Usando ListView)
             const Align(
               alignment: Alignment.centerLeft,
               child: Text(
@@ -90,7 +88,6 @@ class ProfileScreen extends StatelessWidget {
                   title: Text("Desarrollador Freelance"),
                   subtitle: Text("2019 - Presente"),
                 ),
-                // Dentro del ListView o la Columna de experiencias
                 ListTile(
                   leading: Icon(Icons.rocket_launch),
                   title: Text("Fundador - Dev Logic"),
